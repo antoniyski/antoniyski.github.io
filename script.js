@@ -12,3 +12,9 @@ import Phone from "./Phone.js";
 const blackSamsung = new Phone("Samsung", "black");
 const redSamsung = new Phone("Samsung", "red");
 const whiteApple = new Phone("Apple", "white")
+
+console.log(blackSamsung);
+
+blackSamsung.setPhoneCOlor("green");
+
+console.log(blackSamsung);
