@@ -4,7 +4,7 @@ class Phone {
         color
     ) {
         this.phoneModel = model;
-        phoneColor = color;
+        this.phoneColor = color;
     }
 
     setPhoneCOlor(color) {
